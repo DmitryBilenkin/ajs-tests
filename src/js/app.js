@@ -15,7 +15,7 @@ export default function verificateHealth(p) {
 }
 
 const persesInGame = [
-  new Pers('Маг', 14),
+  new Pers('Маг', 12),
   new Pers('Лучник', 93),
   new Pers('Мечник', 45),
 ];
