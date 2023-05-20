@@ -7,5 +7,5 @@ test.each([
   ['dead', 0, 'white'],
 ])('testing verification function $s is $h', (status, health, color) => {
   const result = verificateHealth({ health });
-  expect(result).toMatchObject({ color, status });
+  expect(result).toEqual({ color, status });
 });
