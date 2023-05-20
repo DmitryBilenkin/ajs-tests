@@ -4,7 +4,7 @@ export default class Pers {
     if (health >= 0 && health <= 100) {
       this.health = health;
     } else {
-      throw new Error('incorrect health');
+      throw new Error(`incorrect health value at ${this.name}`);
     }
   }
 }
