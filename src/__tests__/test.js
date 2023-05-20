@@ -5,7 +5,7 @@ test.each([
   ['wounded', 25, 'yellow'],
   ['critical', 4, 'red'],
   ['dead', 0, 'white'],
-])('testing verification function $s is $h', (status, health, color) => {
+])('testing verification function %s is %i', (status, health, color) => {
   const result = verificateHealth({ health });
   expect(result).toEqual({ color, status });
 });
