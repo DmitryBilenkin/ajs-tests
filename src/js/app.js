@@ -4,8 +4,8 @@ import verificateHealth from './verificate';
 const game = document.querySelector('.game');
 
 const persesInGame = [
-  new Pers('Маг', 101),
-  new Pers('Лучник', 93),
+  new Pers('Маг', 100),
+  new Pers('Лучник', 9),
   new Pers('Мечник', 45),
 ];
 
