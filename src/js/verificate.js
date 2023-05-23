@@ -8,4 +8,5 @@ export default function verificateHealth(p) {
   } if (p.health === 0) {
     return { color: 'white', status: 'dead' };
   }
+  return null;
 }
