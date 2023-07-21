@@ -9,3 +9,8 @@ test.each([
   const result = verificateHealth({ health });
   expect(result).toEqual({ color, status });
 });
+
+test('null Test', () => {
+  const result = verificateHealth(-2);
+  expect(result).toBe(null);
+});

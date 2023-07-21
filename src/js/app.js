@@ -1,5 +1,6 @@
 import Pers from './perses';
 import verificateHealth from './verificate';
+import sortPers from './sortFunction';
 
 const game = document.querySelector('.game');
 
@@ -9,7 +10,7 @@ const persesInGame = [
   new Pers('Мечник', 45),
 ];
 
-persesInGame.sort((a, b) => b.health - a.health);
+sortPers(persesInGame);
 
 persesInGame.forEach((p) => {
   const healthStatus = verificateHealth(p);
